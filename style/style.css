@@ -1,5 +1,35 @@
 
 
-div {
-	display: none;
+body { 
+  background: url("../img/galaxy.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+	color: 			white;
+}
+
+#aries, #taurus, #gemini, #cancer, #leo, #virgo, #libra, #scorpio, #sagittarius, #capricorn, #aquarius, #pisces {
+	display: 		none;
+	text-align:		center;
+	margin:			100px;
+}
+
+form, h1, h2 {
+	text-align: 	center;
+}
+
+form {
+	margin-top: 	150px;
+}
+
+input {
+	color: 			black;
+}
+
+button {
+	background-color: black;
 }
